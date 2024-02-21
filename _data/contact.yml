@@ -1,18 +1,18 @@
 #  The contact options.
 
 - type: github
+  url: https://github.com/AlejoPrietoDavalos/
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: linkedin
+  url: https://www.linkedin.com/in/alejoprietodavalos/
+  icon: fab fa-linkedin
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+- type: upwork
+  url: https://www.upwork.com/freelancers/~01be1a770ed0e2f855/
+  icon: fas fa-briefcase
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
