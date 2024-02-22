@@ -31,15 +31,14 @@ copyright:
   # Shown at the bottom of the post
   license:
     template: This post is licensed under :LICENSE_NAME by the author.
-    name: CC BY 4.0
-    link: https://creativecommons.org/licenses/by/4.0/
+    name: CC BY-NC-ND 4.0
+    link: https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en
 
   # Displayed in the footer
   brief: All rights reserved.
   verbose: >-
-    All content on this site, including blog posts and other media, is the exclusive property of Alejo Prieto Dávalos and protected under copyright laws.
-    No part of this site may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic
-    or mechanical methods, without the prior written permission of the author. For permission requests, write to the publisher at alejoprietodavalos@gmail.com.
+    Content © Alejo Prieto Dávalos. Read and share only; no use or modifications allowed without permission.
+    Contact: alejoprietodavalos@gmail.com.
 
 meta: Personal project portfolio of Alejo Prieto Dávalos.
 
