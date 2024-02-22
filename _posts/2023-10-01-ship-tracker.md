@@ -54,5 +54,3 @@ The system is capable of:
 ![Dark Vessel Detected](/media/projects/ship_tracker/segm_2.jpg){:height="36px" width="36px"}
 *Dark Vessel Detected via SAR Imagery*
 
-![Ship Detection Process](/path/to/image2.jpg)
-*Visualization of the Ship Detection Process*
