@@ -1,7 +1,7 @@
 ---
 author: alejo_prieto_davalos
 title: Ship Tracker with Satellite Imagery [private]
-date: 2023-12-01 12:00:00 +0000
+date: 2023-10-01 12:00:00 +0000
 categories: [GeoSpatial, Satellite, AI, ObjectDetection]
 tags: [python, pytorch, geopandas, rasterio, numpy, matplotlib, plotly]
 image:
