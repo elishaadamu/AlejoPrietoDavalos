@@ -2,8 +2,8 @@
 author: alejo_prieto_davalos
 title: Ship Tracker with Satellite Imagery [private]
 date: 2023-12-01 12:00:00 +0000
-categories: [GeoSpatial, AI, ObjectDetection]
-tags: [python, networkx, igraph, mongodb, web_scraping, crypto]
+categories: [GeoSpatial, Satellite, AI, ObjectDetection]
+tags: [python, pytorch, geopandas, rasterio, numpy, matplotlib, plotly]
 image:
   path: /media/projects/ship_tracker/ship_prediction.jpg
   height: 100
@@ -77,10 +77,11 @@ Ship remote sensing system using SAR satellite images, artificial intelligence a
 
 
 
-## Technology Overview
+## Technologys
 - `SAR satellite images:` Penetrate cloud cover and other atmospheric conditions, providing reliable images regardless of the weather.
 - `Rasterio, GeoPandas and QGIS:` Frameworks for geospatial data analysis.
 - `PyTorch:` It was used to create the **Neural Network**, **fully convolutional** from scratch.
+- `Numpy, Matplotlib and Plotly:` For calculation and plots.
 
 
 ## Project Highlights
