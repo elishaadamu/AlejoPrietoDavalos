@@ -5,7 +5,7 @@ date: 2023-12-01 12:00:00 +0000
 categories: [GeoSpatial, AI, ObjectDetection]
 tags: [python, networkx, igraph, mongodb, web_scraping, crypto]
 image:
-  path: /media/projects/ship_tracker/prediction.jpg
+  path: /media/projects/ship_tracker/ship_prediction.jpg
   height: 100
   width: 100
 summary: Detection of objects (ships) using Artificial Intelligence and Satellite Images with Python.
@@ -22,35 +22,51 @@ language: Python
 
 ## Images
 
-<img src="/media/projects/ship_tracker/ship_segmentation_2.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
-<p><em>Dark Vessel Detected via SAR Imagery</em></p>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: justify;">
+    <img src="/media/projects/ship_tracker/ships_in_water.jpg" alt="Ships in the water" style="width: 300px; height: auto;">
+    <p><em><b>Figure 1:</b> Sample of the SAR satellite image dataset and identified ships in the water.</em></p>
+  </div>
+
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: justify;">
+    <img src="/media/projects/ship_tracker/ship_tracker_train_loss.jpg" alt="Detector Train Loss" style="width: 300px; height: auto;">
+    <p><em><b>Figure 2:</b> Ship identification and noise removal.</em></p>
+  </div>
+
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: justify;">
+    <img src="/media/projects/ship_tracker/ship_prediction.jpg" alt="Detector Prediction" style="width: 300px; height: auto;">
+    <p><em><b>Figure 3:</b> AI prediction for a subset of testing data. The see point is the real value, the targets are the prediction, each one contains a probability of success.</em></p>
+  </div>
+
+</div>
 
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
 
-
-  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: center;">
-    <img src="/media/projects/ship_tracker/ship_segmentation_1.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
-    <p><em>Segmentation 1</em></p>
-  </div>
-  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: center;">
-    <img src="/media/projects/ship_tracker/ship_segmentation_2.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
-    <p><em>Segmentation 2</em></p>
+  <!-- SEGMENTATION -->
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: justify;">
+    <img src="/media/projects/ship_tracker/ship_segmentation_1.jpg" alt="Ship Segmentation" style="width: 350px; height: auto;">
+    <p><em><b>Figure 4:</b> Ship identification and noise removal.</em></p>
   </div>
 
-
-
-  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: center;">
-    <img src="/media/projects/ship_tracker/ship_segmentation_1.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
-    <p><em>Segmentation 1</em></p>
-  </div>
-  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: center;">
-    <img src="/media/projects/ship_tracker/ship_segmentation_2.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
-    <p><em>Segmentation 2</em></p>
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: justify;">
+    <img src="/media/projects/ship_tracker/ship_segmentation_2.jpg" alt="Ship Segmentation" style="width: 350px; height: auto;">
+    <p><em><b>Figure 5:</b> Ship identification and noise removal.</em></p>
   </div>
 
 
-  <!-- Repite los divs para más imágenes y descripciones -->
+  <!-- SEGMENTATION 3D -->
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: justify;">
+    <img src="/media/projects/ship_tracker/ship_segmentation_3d_1.jpg" alt="Ship Segmentation with 3D Plot" style="width: 350px; height: auto;">
+    <p><em><b>Figure 6:</b> Ship identification and noise removal, with 3D plot, the difference is visualized after the process.</em></p>
+  </div>
+
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: justify;">
+    <img src="/media/projects/ship_tracker/ship_segmentation_3d_2.jpg" alt="Ship Segmentation with 3D Plot" style="width: 350px; height: auto;">
+    <p><em><b>Figure 7:</b> Ship identification and noise removal, with 3D plot, the difference is visualized after the process.</em></p>
+  </div>
+
 </div>
 
 
