@@ -48,7 +48,7 @@ The system is capable of:
 ![Dark Vessel Detected](/media/projects/ship_tracker/segm_2.jpg)
 *Dark Vessel Detected via SAR Imagery*
 
-<img src="/media/projects/ship_tracker/segm_1.jpg" alt="Dark Vessel Detected" style="width: 100%; max-width: 500px; height: auto;">
+<img src="/media/projects/ship_tracker/segm_2.jpg" alt="Dark Vessel Detected" style="width: 100%; max-width: 500px; height: auto;">
 <p><em>Dark Vessel Detected via SAR Imagery</em></p>
 
 ![Dark Vessel Detected](/media/projects/ship_tracker/segm_2.jpg){:height="36px" width="36px"}
