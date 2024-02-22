@@ -18,3 +18,7 @@ package-lock.json
 .idea
 
 # Misc
+
+env/
+.env
+__pycache__/
