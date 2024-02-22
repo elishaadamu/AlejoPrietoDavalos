@@ -20,12 +20,45 @@ language: Python
 - Using cutting-edge **SAR satellite images** and **Deep Learning** I made a prototype that **identifies, segments** and evaluates ships potentially involved in **illicit maritime activities**.
 
 
+## Images
+
+<img src="/media/projects/ship_tracker/ship_segmentation_2.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
+<p><em>Dark Vessel Detected via SAR Imagery</em></p>
+
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+
+
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: center;">
+    <img src="/media/projects/ship_tracker/ship_segmentation_1.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
+    <p><em>Segmentation 1</em></p>
+  </div>
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: center;">
+    <img src="/media/projects/ship_tracker/ship_segmentation_2.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
+    <p><em>Segmentation 2</em></p>
+  </div>
+
+
+
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: center;">
+    <img src="/media/projects/ship_tracker/ship_segmentation_1.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
+    <p><em>Segmentation 1</em></p>
+  </div>
+  <div style="flex-basis: 48%; margin-bottom: 20px; text-align: center;">
+    <img src="/media/projects/ship_tracker/ship_segmentation_2.jpg" alt="Dark Vessel Detected" style="width: 200px; height: auto;">
+    <p><em>Segmentation 2</em></p>
+  </div>
+
+
+  <!-- Repite los divs para más imágenes y descripciones -->
+</div>
+
+
 
 ## Technology Overview
 - `SAR satellite images:` Penetrate cloud cover and other atmospheric conditions, providing reliable images regardless of the weather.
 - `Rasterio, GeoPandas and QGIS:` Frameworks for geospatial data analysis.
 - `PyTorch:` It was used to create the **Neural Network**, **fully convolutional** from scratch.
-
 
 
 ## Project Highlights
@@ -43,14 +76,4 @@ The system is capable of:
 3. **Save the points in a geospatial file and view it in tools like QGIS or similar.**
 
 
-## Images
-
-![Dark Vessel Detected](/media/projects/ship_tracker/segm_2.jpg)
-*Dark Vessel Detected via SAR Imagery*
-
-<img src="/media/projects/ship_tracker/segm_2.jpg" alt="Dark Vessel Detected" style="width: 100%; max-width: 500px; height: auto;">
-<p><em>Dark Vessel Detected via SAR Imagery</em></p>
-
-![Dark Vessel Detected](/media/projects/ship_tracker/segm_2.jpg){:height="36px" width="36px"}
-*Dark Vessel Detected via SAR Imagery*
 
