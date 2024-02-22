@@ -5,7 +5,7 @@ date: 2023-12-01 12:00:00 +0000
 categories: [GeoSpatial, AI, ObjectDetection]
 tags: [python, networkx, igraph, mongodb, web_scraping, crypto]
 image:
-  path: /media/projects/ship_tracker/pred_1.jpg
+  path: /media/projects/ship_tracker/prediction.jpg
   height: 100
   width: 100
 summary: Detection of objects (ships) using Artificial Intelligence and Satellite Images with Python.
@@ -47,6 +47,9 @@ The system is capable of:
 
 ![Dark Vessel Detected](/media/projects/ship_tracker/segm_2.jpg)
 *Dark Vessel Detected via SAR Imagery*
+
+<img src="/media/projects/ship_tracker/segm_2.jpg" alt="Dark Vessel Detected" style="width: 100%; max-width: 500px; height: auto;">
+<p><em>Dark Vessel Detected via SAR Imagery</em></p>
 
 ![Dark Vessel Detected](/media/projects/ship_tracker/segm_2.jpg){:height="36px" width="36px"}
 *Dark Vessel Detected via SAR Imagery*
