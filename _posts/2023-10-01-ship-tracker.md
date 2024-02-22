@@ -25,18 +25,18 @@ language: Python
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
-    <img src="/media/projects/ship_tracker/ships_in_water.jpg" alt="Ships in the water" style="width: 100%; height: auto;">
-    <p><em><b>Figure 1:</b> Sample of the SAR satellite image dataset and identified ships in the water.</em></p>
+    <img src="/media/projects/ship_tracker/ships_in_water.jpg" alt="Ships in the water" style="max-width: 300px; width: 100%; height: auto;">
+    <p style="width: 100%; max-width: 300px;"><em><b>Figure 1:</b> Sample of the SAR satellite image dataset and identified ships in the water.</em></p>
   </div>
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
-    <img src="/media/projects/ship_tracker/ship_tracker_train_loss.jpg" alt="Detector Train Loss" style="width: 100%; height: auto;">
-    <p><em><b>Figure 2:</b> Ship identification and noise removal.</em></p>
+    <img src="/media/projects/ship_tracker/ship_tracker_train_loss.jpg" alt="Detector Train Loss" style="max-width: 300px; width: 100%; height: auto;">
+    <p style="width: 100%; max-width: 300px;"><em><b>Figure 2:</b> Ship identification and noise removal.</em></p>
   </div>
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
-    <img src="/media/projects/ship_tracker/ship_prediction.jpg" alt="Detector Prediction" style="width: 100%; height: auto;">
-    <p><em><b>Figure 3:</b> AI prediction for a subset of testing data. The see point is the real value, the targets are the prediction, each one contains a probability of success.</em></p>
+    <img src="/media/projects/ship_tracker/ship_prediction.jpg" alt="Detector Prediction" style="max-width: 300px; width: 100%; height: auto;">
+    <p style="width: 100%; max-width: 300px;"><em><b>Figure 3:</b> AI prediction for a subset of testing data. The see point is the real value, the targets are the prediction, each one contains a probability of success.</em></p>
   </div>
 
 </div>
@@ -46,25 +46,25 @@ language: Python
 
   <!-- SEGMENTATION -->
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
-    <img src="/media/projects/ship_tracker/ship_segmentation_1.jpg" alt="Ship Segmentation" style="width: 100%; height: auto;">
-    <p><em><b>Figure 4:</b> Ship identification and noise removal.</em></p>
+    <img src="/media/projects/ship_tracker/ship_segmentation_1.jpg" alt="Ship Segmentation" style="max-width: 300px; width: 100%; height: auto;">
+    <p style="width: 100%; max-width: 300px;"><em><b>Figure 4:</b> Ship identification and noise removal.</em></p>
   </div>
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
-    <img src="/media/projects/ship_tracker/ship_segmentation_2.jpg" alt="Ship Segmentation" style="width: 100%; height: auto;">
-    <p><em><b>Figure 5:</b> Ship identification and noise removal.</em></p>
+    <img src="/media/projects/ship_tracker/ship_segmentation_2.jpg" alt="Ship Segmentation" style="max-width: 300px; width: 100%; height: auto;">
+    <p style="width: 100%; max-width: 300px;"><em><b>Figure 5:</b> Ship identification and noise removal.</em></p>
   </div>
 
 
   <!-- SEGMENTATION 3D -->
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
-    <img src="/media/projects/ship_tracker/ship_segmentation_3d_1.jpg" alt="Ship Segmentation with 3D Plot" style="width: 100%; height: auto;">
-    <p><em><b>Figure 6:</b> Ship identification and noise removal, with 3D plot, the difference is visualized after the process.</em></p>
+    <img src="/media/projects/ship_tracker/ship_segmentation_3d_1.jpg" alt="Ship Segmentation with 3D Plot" style="max-width: 300px; width: 100%; height: auto;">
+    <p style="width: 100%; max-width: 300px;"><em><b>Figure 6:</b> Ship identification and noise removal, with 3D plot, the difference is visualized after the process.</em></p>
   </div>
 
   <div style="flex-basis: 48%; max-width: 300px; margin-bottom: 20px; text-align: justify;">
-      <img src="/media/projects/ship_tracker/ship_segmentation_3d_2.jpg" alt="Ship Segmentation with 3D Plot" style="width: 100%; height: auto;">
-      <p><em><b>Figure 7:</b> Ship identification and noise removal, with 3D plot, the difference is visualized after the process.</em></p>
+      <img src="/media/projects/ship_tracker/ship_segmentation_3d_2.jpg" alt="Ship Segmentation with 3D Plot" style="max-width: 300px; width: 100%; height: auto;">
+      <p style="width: 100%; max-width: 300px;"><em><b>Figure 7:</b> Ship identification and noise removal, with 3D plot, the difference is visualized after the process.</em></p>
   </div>
 
 
