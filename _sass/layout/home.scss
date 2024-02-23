@@ -197,23 +197,28 @@
   font-size: 0.9rem;
 }
 
-/* Estilo base para tags y language-tag */
+/* Estilo base para .language-tag y .tag-badge */
 .tag-badge, .language-tag {
   display: inline-flex;
-  align-items: center; /* Alinea ícono y texto verticalmente */
-  justify-content: center; /* Centra contenido horizontalmente */
-  background-color: #74b8e1; /* Fondo de ambos tags */
-  color: #51357e; /* Color del texto - blanco para mejor contraste */
-  border-radius: 15px; /* Bordes redondeados */
-  padding: 5px 10px; /* Espacio interno */
-  margin: 5px 5px 5px 0; /* Espacio externo */
-  font-size: 0.75rem; /* Tamaño del texto */
-  white-space: nowrap; /* Evita que el texto pase a la siguiente línea */
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 5px 5px 5px 0;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  font-weight: bold; /* Agregar negrita al texto */
 }
 
-/* Estilo específico para .language-tag */
-.language-tag img {
-  width: 20px; /* Tamaño del ícono de Python */
-  height: 20px; /* Asegura que el ícono no sea más grande que el texto */
-  margin-right: 5px; /* Espacio entre ícono y texto */
+/* Estilos específicos para .language-tag */
+.language-tag {
+  background-color: #51357e; /* Color de fondo diferente para language-tag */
+  color: #ffffff; /* Color del texto en blanco para mejor contraste */
+  margin-bottom: 10px; /* Mayor margen inferior para separar de las etiquetas de tags */
+}
+
+/* Estilos específicos para .tag-badge */
+.tag-badge {
+  background-color: #74b8e1; /* Color de fondo para los tags */
+  color: #51357e; /* Color del texto que contrasta con el fondo */
 }
