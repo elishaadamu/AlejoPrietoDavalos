@@ -187,3 +187,34 @@
     }
   } /* .pagination */
 }
+
+
+
+
+
+.post-summary {
+  color: var(--text-muted-color); /* Ajusta este valor al color deseado */
+  font-size: 0.9rem;
+}
+
+.language-tag {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f0f0f0; /* Fondo del tag de lenguaje */
+  border-radius: 20px; /* Hace los bordes redondeados */
+  padding: 5px 10px;
+  margin: 5px 0; /* Ajusta el margen según sea necesario */
+}
+
+.tag-badge {
+  display: inline-block;
+  background-color: #007bff; /* Color de fondo para los tags */
+  color: #ffffff; /* Color del texto para los tags */
+  border-radius: 15px; /* Bordes redondeados para los tags */
+  padding: 5px 10px;
+  margin: 5px 5px 5px 0; /* Espacio alrededor de los tags */
+  font-size: 0.75rem;
+}
+
+
+

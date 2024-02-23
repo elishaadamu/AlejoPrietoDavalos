@@ -74,11 +74,24 @@ refactor: true
 
 
 
+            <p class="post-summary">{{ post.summary }}</p>
+            <div class="language-tag">
+              <img src="/media/etc/python_icon.png" alt="Python" style="width: 20px; height: 20px; vertical-align: middle;">
+              <span>{{ post.language }}</span>
+            </div>
+            
+            <!-- Tags -->
+            <div class="tags">
+              {% for tag in post.tags %}
+                <span class="tag-badge">{{ tag }}</span>
+              {% endfor %}
+            </div>
 
 
-            <p>{{ post.summary }}</p>   <!-- ~~~~~~~~~~INSERTAR CAMPOS ACA~~~~~~~~~~~~~ -->
-            <p>{{ post.language }}</p>  <!-- ~~~~~~~~~~INSERTAR CAMPOS ACA~~~~~~~~~~~~~ -->
-            <p>{{ post.tags }}</p>      <!-- ~~~~~~~~~~INSERTAR CAMPOS ACA~~~~~~~~~~~~~ -->
+
+            <!-- <p>{{ post.summary }}</p>   --> <!-- ~~~~~~~~~~INSERTAR CAMPOS ACA~~~~~~~~~~~~~ -->
+            <!-- <p>{{ post.language }}</p>  --> <!-- ~~~~~~~~~~INSERTAR CAMPOS ACA~~~~~~~~~~~~~ -->
+            <!-- <p>{{ post.tags }}</p>      --> <!-- ~~~~~~~~~~INSERTAR CAMPOS ACA~~~~~~~~~~~~~ -->
 
 
 
