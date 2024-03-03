@@ -3,12 +3,11 @@ author: alejo_prieto_davalos
 title: Twitter Analysis [private]
 date: 2023-12-01 12:00:00 +0000
 categories: [SocialNetworks, Crypto]
-tags: [python, networkx, igraph, mongodb, web_scraping, crypto]
+tags: [networkx, igraph, mongodb, web_scraping, crypto]
 image:
   path: /media/projects/twitter_analysis/graph_followers.png
   height: 100
   width: 100
-technologies: [NetworkX, iGraph, MongoDB]
 summary: Twitter analysis for marketing, follower graph, clustering, keywords, metrics, storage in a historical DB.
 language: Python
 ---
