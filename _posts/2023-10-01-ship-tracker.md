@@ -77,7 +77,7 @@ Ship remote sensing system using SAR satellite images, artificial intelligence a
 
 
 
-## Technologys
+## Technologies
 - `SAR satellite images:` Penetrate cloud cover and other atmospheric conditions, providing reliable images regardless of the weather.
 - `Rasterio, GeoPandas and QGIS:` Frameworks for geospatial data analysis.
 - `PyTorch:` It was used to create the **Neural Network**, **fully convolutional** from scratch.
