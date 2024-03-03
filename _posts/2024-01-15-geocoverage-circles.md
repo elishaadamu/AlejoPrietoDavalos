@@ -1,14 +1,14 @@
 ---
 author: alejo_prieto_davalos
 title: GeoCoverage with Circles [private]
-date: 2023-01-15 12:00:00 +0000
+date: 2024-01-15 12:00:00 +0000
 categories: [GeoSpatial]
 tags: [geopandas, matplotlib]
 image:
   path: /media/projects/geocoverage_circles/argentina_circles.png
   height: 100
   width: 100
-summary: Geospatial coverage of the polygon of any country in the world with circles.
+summary: Geospatial coverage of the polygon of any country in the world with circles. Then information is obtained from Google Places for each one.
 language: Python
 ---
 
@@ -23,8 +23,8 @@ language: Python
 - **Circles Generator:** Given the polygon of a country, the script generates circles that perform [SpatialJoin](https://geopandas.org/en/stable/gallery/spatial_joins.html) with the country's surface.
 - **Minimal Overlap:** Minimal overlap is achieved by offsetting the centroids by exactly half the distance between them.
 - **Circles Radius:** The client requires circles with a radius of **50km**, but the system works with any radius.
-- **Exported Data:** The country's polygon, centroids, and circles are exported in 3 different **GeoJSON** files.
-- **Plots:** Visualizations shown in Figure 1 are added.
+- **Exported Data:** The country's **polygon, centroids, and circles** are exported in 3 different **GeoJSON** files.
+- **Plots:** Visualizations shown in **Figure 1** are added.
 
 ## Project Goal
 Find all the circles given any polygon, and for each of them, gather geographic data.
