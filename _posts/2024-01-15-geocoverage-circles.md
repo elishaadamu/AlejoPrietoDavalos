@@ -1,3 +1,17 @@
+---
+author: alejo_prieto_davalos
+title: GeoCoverage with Circles [private]
+date: 2023-01-15 12:00:00 +0000
+categories: [GeoSpatial]
+tags: [geopandas, matplotlib]
+image:
+  path: /media/projects/geocoverage_circles/argentina_circles.png
+  height: 100
+  width: 100
+summary: Geospatial coverage of the polygon of any country in the world with circles.
+language: Python
+---
+
 # GeoCoverage with Circles
 ## Summary
 - The client has a script to collect data from [Google Places](https://developers.google.com/maps/documentation/places/web-service/overview?hl=es-419) within 50km radius circles, but circles of each country and geospatial data are not considered.
@@ -16,8 +30,13 @@
 Find all the circles given any polygon, and for each of them, gather geographic data.
 
 ## Images
-1. **Figure 1:** (Subplot countries, 4 countries, Argentina, Italy, China, and Japan) Circles of 50km radius are shown for 4 arbitrary countries.
-
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <!-- 4 Countries Plot -->
+  <div style="flex-basis: 48%; max-width: 500px; margin-bottom: 20px; text-align: justify;">
+    <img src="/media/projects/geocoverage_circles/subplot_countries.png" alt="Coverage of 4 countries." style="max-width: 500px; width: 100%; height: auto;">
+    <p style="width: 100%; max-width: 500px;"><em><b>Figure 1:</b> Circles of 50km radius are shown for 4 arbitrary countries.</em></p>
+  </div>
+</div>
 
 ## Technologies
 - **OpenStreetMap (OSM):** Open-source community for geospatial data.
