@@ -32,9 +32,9 @@ Find all the circles given any polygon, and for each of them, gather geographic 
 ## Images
 <div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
   <!-- 4 Countries Plot -->
-  <div style="flex-basis: 48%; max-width: 500px; margin-bottom: 20px; text-align: justify;">
-    <img src="/media/projects/geocoverage_circles/subplot_countries.png" alt="Coverage of 4 countries." style="max-width: 500px; width: 100%; height: auto;">
-    <p style="width: 100%; max-width: 500px;"><em><b>Figure 1:</b> Circles of 50km radius are shown for 4 arbitrary countries.</em></p>
+  <div style="flex-basis: 48%; max-width: 800px; margin-bottom: 20px; text-align: justify;">
+    <img src="/media/projects/geocoverage_circles/subplot_countries.png" alt="Coverage of 4 countries." style="max-width: 800px; width: 100%; height: auto;">
+    <p style="width: 100%; max-width: 800px;"><em><b>Figure 1:</b> Circles of 50km radius are shown for 4 arbitrary countries.</em></p>
   </div>
 </div>
 
