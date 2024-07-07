@@ -13,6 +13,7 @@ language: Python
 ---
 
 # Twitter Analysis | Follows Graph | Trending Topics | Keywords
+### (In construction)
 
 Using Python I developed a system for trend monitoring and connection analysis for a set of crypto-oriented users of interest.
 
