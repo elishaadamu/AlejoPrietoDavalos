@@ -1,6 +1,6 @@
 ---
 author: alejo_prieto_davalos
-title: Twitter Analysis [private]
+title: Twitter Analysis [public]
 date: 2023-12-01 12:00:00 +0000
 categories: [SocialNetworks, Crypto]
 tags: [networkx, igraph, mongodb, web_scraping, crypto]
@@ -14,6 +14,7 @@ language: Python
 
 # Twitter Analysis | Follows Graph | Trending Topics | Keywords
 ### (In construction)
+- Repository: https://github.com/AlejoPrietoDavalos/twitter_analysis
 
 Using Python I developed a system for trend monitoring and connection analysis for a set of crypto-oriented users of interest.
 
