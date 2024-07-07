@@ -3,7 +3,7 @@ author: alejo_prieto_davalos
 title: Prediction of the Next Purchase Day [private]
 date: 2024-04-01 12:00:00 +0000
 categories: [MachineLearning]
-tags: [numpy, matplotlib, boto3, redis, mongodb]
+tags: [numpy, pandas, matplotlib, boto3, redis, mongodb]
 image:
   path: /media/projects/next_purchase_day/distribution_results.jpeg
   height: 100
