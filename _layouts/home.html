@@ -75,17 +75,22 @@ refactor: true
 
 
             <p class="post-summary">{{ post.summary }}</p>
-            <div class="language-tag">
-              <img src="/media/etc/python_icon.png" alt="Python" style="width: 20px; height: 20px; vertical-align: middle;">
-              <span>{{ post.language }}</span>
-            </div>
-            
-            <!-- Tags -->
+            <!-- Para el lenguaje -->
+            {% if post.languages %}
+              <div class="languages">
+                {% for language in post.languages %}
+                  <div class="language-tag">{{ language }}</div>
+                {% endfor %}
+              </div>
+            {% endif %}
+
+            <!-- Para los tags -->
             <div class="tags">
               {% for tag in post.tags %}
                 <span class="tag-badge">{{ tag }}</span>
               {% endfor %}
             </div>
+
 
 
 

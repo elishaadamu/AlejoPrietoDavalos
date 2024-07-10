@@ -197,21 +197,28 @@
   font-size: 0.9rem;
 }
 
-.language-tag {
+/* Estilo base para .language-tag y .tag-badge */
+.tag-badge, .language-tag {
   display: inline-flex;
   align-items: center;
-  background-color: #f0f0f0; /* Fondo del tag de lenguaje */
-  border-radius: 20px; /* Hace los bordes redondeados */
+  justify-content: center;
+  border-radius: 15px;
   padding: 5px 10px;
-  margin: 5px 0; /* Ajusta el margen según sea necesario */
+  margin: 5px 5px 5px 0;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  font-weight: bold; /* Agregar negrita al texto */
 }
 
+/* Estilos específicos para .language-tag */
+.language-tag {
+  background-color: #51357e; /* Color de fondo diferente para language-tag */
+  color: #ffffff; /* Color del texto en blanco para mejor contraste */
+  margin-bottom: 10px; /* Mayor margen inferior para separar de las etiquetas de tags */
+}
+
+/* Estilos específicos para .tag-badge */
 .tag-badge {
-  display: inline-block;
-  background-color: #007bff; /* Color de fondo para los tags */
-  color: #ffffff; /* Color del texto para los tags */
-  border-radius: 15px; /* Bordes redondeados para los tags */
-  padding: 5px 10px;
-  margin: 5px 5px 5px 0; /* Espacio alrededor de los tags */
-  font-size: 0.75rem;
+  background-color: #74b8e1; /* Color de fondo para los tags */
+  color: #51357e; /* Color del texto que contrasta con el fondo */
 }
