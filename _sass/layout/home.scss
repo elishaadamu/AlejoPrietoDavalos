@@ -197,33 +197,19 @@
   font-size: 0.9rem;
 }
 
-/* Estilo base para tags y language-tag */
-.tag-badge, .language-tag {
+.language-tag {
   display: inline-flex;
-  align-items: center; /* Alinea ícono y texto verticalmente */
-  justify-content: center; /* Centra contenido horizontalmente */
-  background-color: #68d2dd; /* Fondo de ambos tags */
-  color: #c2cccd; /* Color del texto */
-  border-radius: 15px; /* Bordes redondeados */
-  padding: 5px 10px; /* Espacio interno */
-  margin: 5px 5px 5px 0; /* Espacio externo */
-  font-size: 0.75rem; /* Tamaño del texto */
-  white-space: nowrap; /* Evita que el texto pase a la siguiente línea */
+  align-items: center;
+  background-color: #f0f0f0; /* Fondo del tag de lenguaje */
+  border-radius: 20px; /* Hace los bordes redondeados */
+  padding: 5px 10px;
+  margin: 5px 0; /* Ajusta el margen según sea necesario */
 }
-
-/* Estilo específico para .language-tag */
-.language-tag img {
-  width: 20px; /* Tamaño del ícono de Python */
-  height: 20px; /* Asegura que el ícono no sea más grande que el texto */
-  margin-right: 5px; /* Espacio entre ícono y texto */
-}
-
-
 
 .tag-badge {
   display: inline-block;
-  background-color: #68d2dd; /* Color de fondo para los tags */
-  color: #c2cccd; /* Color del texto para los tags */
+  background-color: #007bff; /* Color de fondo para los tags */
+  color: #ffffff; /* Color del texto para los tags */
   border-radius: 15px; /* Bordes redondeados para los tags */
   padding: 5px 10px;
   margin: 5px 5px 5px 0; /* Espacio alrededor de los tags */
